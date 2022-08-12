@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0 4px;
+}
+
+.color {
+    width: 24px;
+    border-radius: 8px;
+}
+
+.color-container{
+    display: flex;
+    margin: 0 0 16px;
+
+}
+
+.button-container {
+    display: flex;
+    margin: 0 8px;
+    align-items: center;
+}
+
+.quantity {
+    margin: 0 4px
+}
+
+#container {
+    outline: 1px solid;
+    width: 240px;
+    height: 240px;
+    padding: 24px;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: repeat(3,63px);
+    gap: 1px;
+    margin-bottom: 24px;
+}
+
+.item{
+    height: 96px;
+    border-radius: 4px;
+}
